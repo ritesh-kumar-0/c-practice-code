@@ -20,6 +20,8 @@
    else{
     tax = (250000*0.05) + (500000*0.20) + (income - 1000000) *0.30;
    }
+
+   
    
     printf("Income tax to be paid: (Rs)%.2lf\n",tax);
     return 0;
