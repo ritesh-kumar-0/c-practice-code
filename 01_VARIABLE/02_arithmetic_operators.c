@@ -1,3 +1,4 @@
+//Write a C program to add two numbers and display their sum.&What is the purpose of the modulus operator (%) in this program?
 #include <stdio.h>
 
 int main(){

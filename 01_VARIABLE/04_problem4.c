@@ -1,3 +1,5 @@
+//Write a C program to calculate the Simple Interest using the formula:
+//  SI = (P × R × T) / 100
 #include <stdio.h>
 
 int main(){

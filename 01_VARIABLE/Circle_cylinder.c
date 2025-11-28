@@ -1,3 +1,4 @@
+//Write a C program to calculate the area of a circle and the volume of a cylinder using given radius and height.
 #include<stdio.h>
 int main(){
     int r = 6;
