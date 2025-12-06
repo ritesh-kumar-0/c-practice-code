@@ -1,0 +1,21 @@
+//Write a program to print the Fibonacci series up to n terms.
+#include <stdio.h>
+
+int main() {
+    int n, first = 0, second = 1, next;
+
+    printf("Enter number of terms: ");
+    scanf("%d", &n);
+
+    printf("Fibonacci Series: %d %d ", first, second);
+
+    for(int i = 3; i <= n; i++) {
+        next = first + second;
+        printf("%d ", next);
+
+        first = second;
+        second = next;
+    }
+
+    return 0;
+}
