@@ -1,3 +1,4 @@
+// Write a program to print the address of a variable using pointer. 
 #include <stdio.h>
 int main(){
     int a = 10;
