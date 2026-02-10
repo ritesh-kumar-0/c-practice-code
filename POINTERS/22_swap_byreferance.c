@@ -9,7 +9,7 @@ int main(){
 
     return 0;
 }
-// Call by value
+// Call by Referance
 void Swap(int *a, int *b){    // a and b receive addresses of x and y
     int t = *a;     // Store value at address a (value of x) in temp
     *a = *b;       // Assign value of y to x using pointer
