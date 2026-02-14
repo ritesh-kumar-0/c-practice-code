@@ -1,8 +1,9 @@
+
 #include<stdio.h>
 
 int main (){
-    float price = 50.00;
-    float *ptr = &price;
+    float marks = 22.00;
+    float *ptr = &marks;
     printf("ptr = %u\n", ptr);
     
     ptr ++;

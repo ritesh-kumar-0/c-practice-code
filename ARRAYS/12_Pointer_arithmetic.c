@@ -1,4 +1,4 @@
-// How pointeer arithmetic Work?
+// How pointer arithmetic work?
 #include<stdio.h>
 
 int main (){
